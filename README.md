@@ -10,7 +10,7 @@ Tested on Ubuntu 14.04 and python3.5.6.
 
 Setting up a new python environment using pyenv, Follow instructions from here.
 
-### Installing blender as a module
+### Installing blender2.79 as a module
 The instructions are mostly the same as the official installation instructions except for a few modifications specified below.
 
 Install the python dependecies using pip:
@@ -44,6 +44,8 @@ Build it an install it:
 >  make -j4 &&  make install
 
 This should have created the python library bin/bpy.so.
+
+copy folder 2.79 and bpy.so to /$yourname$/.pyenv/versions/3.5.6/lib/python3.5/site-packages
 
 ## 2. Install bullet3-2.88
 ------------------------------------------------------------
